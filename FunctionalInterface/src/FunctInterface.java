@@ -12,7 +12,7 @@ interface Funct{
 
  public class FunctInterface{
 	
-	public static void main(String[] args) {
+	public static void main(String[] argss) {
 		
 	 
 		
