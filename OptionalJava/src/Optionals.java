@@ -9,7 +9,10 @@ public class Optionals {
 		Integer m=null;
 		Optional<Integer> k = Optional.empty();
 		
-		k = Optional.ofNullable(null);
+		k = Optional.of(null);
+		
+		
+		
 		
 		System.out.println(k.toString());
 		System.out.println(m.toString());
