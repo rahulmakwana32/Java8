@@ -22,7 +22,7 @@ interface Funct{
 		
 	Runnable r=()-> {
 		
-		System.out.println("Run "+Thread.currentThread().getName());
+		System.out.println("Runs "+Thread.currentThread().getName());
 		
 	};
 	
