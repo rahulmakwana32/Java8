@@ -11,6 +11,11 @@ public class User {
 		User = user;
 		this.pwd = pwd;
 	}
+
+	@Override
+	public String toString() {
+		return "User [User=" + User + ", pwd=" + pwd + "]";
+	}
 	
 	
 }
