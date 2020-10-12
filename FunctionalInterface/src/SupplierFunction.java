@@ -6,6 +6,7 @@ public class SupplierFunction {
 		Supplier<String> f = () -> new User("r", "d").toString();
 
 		System.out.println(f.get());
+	 
 
 	}
 }
